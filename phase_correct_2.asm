@@ -2,7 +2,7 @@
 .cseg
 
 .org $0000
-	rjmp RESET      ;Reset handle
+   rjmp RESET      ;Reset handle
    rjmp ext_int0
    rjmp ext_int1
    rjmp t2_comp_int                    ; t2comp
